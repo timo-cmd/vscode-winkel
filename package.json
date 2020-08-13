@@ -1,0 +1,45 @@
+{
+    "name": "winkel",
+    "displayName": "winkel Syntax",
+    "description": "A winkel Syntax based extension",
+    "version": "0.0.1",
+    "publisher": "timo sarkar",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "homepage": "https:",
+    "repository": {
+        "type": "git",
+        "url": "https://.git"
+    },
+    "icon": "images/winkel.png",
+
+    "categories": [
+        "languages"
+    ],
+    
+    "contributes": {
+        "languages": [
+            {
+                "id": "winkel",
+                "aliases": [
+                    "winkel",
+                    "winkel"
+                ],
+                "extensions": [
+                    ".winkel",
+                    ".w"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "winkel",
+                "scopeName": "source.winkel",
+                "path": "./syntaxes/winkel.tmLanguage"
+            }
+        ]
+    }
+}
